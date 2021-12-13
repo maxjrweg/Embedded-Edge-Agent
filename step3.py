@@ -15,9 +15,9 @@ from wasmer_compiler_cranelift import Compiler
 EEA_TRACE_LOG_LEVEL = 2
 
 # Device authentication details.
-DEVICE_ID = "000000000000000000000000"
-ACCESS_KEY = "YOUR_ACCESS_KEY"
-ACCESS_SECRET = "YOUR_ACCESS_SECRET"
+DEVICE_ID = os.environ.get("DEVICE_ID")
+ACCESS_KEY = os.environ.get("ACCESS_KEY")
+ACCESS_SECRET = os.environ.get("ACCESS_SECRET")
 
 #
 # Decodes a string from the memory buffer from the starting
