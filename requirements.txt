@@ -1,1 +1,2 @@
 wasmer==1.0.0
+paho-mqtt
