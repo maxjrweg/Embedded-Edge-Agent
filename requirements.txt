@@ -1,2 +1,4 @@
 wasmer==1.0.0
+wasmer_compiler_cranelift
 paho-mqtt
+pyserial
